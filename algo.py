@@ -13,7 +13,7 @@ def sort_random(x):
     print(sorted)
     print(ones)
     print(zeros)
-    if x:
+    if ones or zeros:
         if sorted[-1]==0:
             while ones:
                 sorted+=[remove(ones)]
