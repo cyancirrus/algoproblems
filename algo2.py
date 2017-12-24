@@ -9,9 +9,6 @@ def sort_random(x):
                 sorted+=[remove(compliment)]
         else:
             compliment+=[value]
-    if compliment:
-        sorted+=[remove(compliment)]
-
     return sorted
 
 
