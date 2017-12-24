@@ -19,11 +19,11 @@ def sort_random(x):
                 sorted+=[remove(ones)]
                 if zeros:
                      sorted+=[remove(zeros)]
-    else:
-        while zeros:
-            sorted+=[remove(zeros)]
-            if ones:
-                sorted+=[remove(ones)]
+        else:
+            while zeros:
+                sorted+=[remove(zeros)]
+                if ones:
+                    sorted+=[remove(ones)]
     return sorted
 
 
