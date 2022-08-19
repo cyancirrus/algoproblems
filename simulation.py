@@ -1,6 +1,6 @@
 # Need find, append, search and replace in log(n) time - creation in O(nlogn)
 # time expected : 10 minutes
-# time spent    : 3 months back of mind 3 days of work
+# time spent    : 3 months back of mind 3 days * 3 hours of trying
 # shrug         : u.u
 
 from dataclasses import dataclass
