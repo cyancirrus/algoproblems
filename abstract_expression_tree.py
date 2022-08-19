@@ -1,4 +1,6 @@
- # Supposed to gain insight that this is how to solve the problem and solve it in 20 minutes
+# Supposed to gain insight, realize u need operators on the branches, numbers on the leafs, and appropriate transformations 
+#     shrug     : u.u 
+#     timespent : 2 hours
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val
